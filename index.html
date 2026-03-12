@@ -1,44 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deivis Torres | Ingeniero de Sistemas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Deivis Torres | Desarrollo Web</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#0d47a1,#1976d2);
+color:white;
+text-align:center;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+}
+
+.contenedor{
+max-width:700px;
+padding:40px;
+}
+
+h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+p{
+font-size:20px;
+}
+
+.servicios{
+margin-top:30px;
+}
+
+.servicios span{
+display:inline-block;
+background:white;
+color:#0d47a1;
+padding:10px 15px;
+margin:5px;
+border-radius:20px;
+font-weight:bold;
+}
+
+#contador{
+font-size:30px;
+margin-top:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+</style>
+
 </head>
+
 <body>
 
-<header>
-    <div class="container">
-        <h1>DEIVIS TORRES</h1>
-        <p class="tagline">Ingeniero de Sistemas | Full Stack Developer</p>
-    </div>
-</header>
+<div class="contenedor">
 
-<main class="container">
-    <section class="profile-card">
-        <h2>Perfil Profesional</h2>
-        <p>Especializado en el diseño de software y soluciones integrales de infraestructura. Enfocado en el desarrollo escalable con Java, Spring Boot y gestión de bases de datos SQL.</p>
-        
-        <div class="skills">
-            <span class="skill-badge">HTML / CSS</span>
-            <span class="skill-badge">Java</span>
-            <span class="skill-badge">Spring Boot</span>
-            <span class="skill-badge">SQL</span>
-            <span class="skill-badge">Redes & IT</span>
-        </div>
+<h1>🚧 deivistorres.com</h1>
 
-        <div class="contact-area">
-            <a href="mailto:contacto@deivistorres.com" class="btn">Enviar un correo</a>
-            <p class="email-text">contacto@deivistorres.com</p>
-        </div>
-    </section>
-</main>
+<p>Estamos construyendo nuestro nuevo sitio web</p>
 
-<footer>
-    <p>&copy; 2024 Deivis Torres. Todos los derechos reservados.</p>
-</footer>
+<p>Muy pronto encontrarás soluciones para negocios:</p>
+
+<div class="servicios">
+
+<span>Páginas Web</span>
+<span>Automatización Excel</span>
+<span>Formularios Web</span>
+
+</div>
+
+<div id="contador"></div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/573106279628" target="_blank">
+WhatsApp
+</a>
+d
+<script>
+
+//var fechaLanzamiento = new Date("May 1, 2026 00:00:00").getTime();
+
+/*var x = setInterval(function() {
+
+var ahora = new Date().getTime();
+var distancia = fechaLanzamiento - ahora;
+
+var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+var horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+
+document.getElementById("contador").innerHTML =
+"Lanzamiento en: " + dias + " días " + horas + "h " + minutos + "m";
+
+}, 1000);*/
+
+</script>
 
 </body>
+
 </html>
